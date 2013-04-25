@@ -1,0 +1,18 @@
+
+@import 'base-grid.scss';
+
+@import 'base-reset.scss';
+@import 'base-text.scss';
+@import 'base-form.scss';
+@import 'base-list.scss';
+
+@columns: 12;
+@column-width: 60;
+@gutter-width: 20;
+
+.primary {
+   .column(9);
+}
+section {
+   .column(3);
+}
